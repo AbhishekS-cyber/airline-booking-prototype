@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airline Booking Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>✈️ Airline Booking System</h1>
+    <p class="subtitle">Software Prototype using SOLID Principles</p>
+
+    <input type="text" id="name" placeholder="Passenger Name">
+
+    <select id="seatType">
+        <option value="">Select Seat Type</option>
+        <option value="economy">Economy</option>
+        <option value="business">Business</option>
+    </select>
+
+    <select id="payment">
+        <option value="">Select Payment Method</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="UPI">UPI</option>
+    </select>
+
+    <select id="notification">
+        <option value="">Select Notification Method</option>
+        <option value="Email">Email</option>
+        <option value="SMS">SMS</option>
+    </select>
+
+    <button onclick="bookTicket()">Book Ticket</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
